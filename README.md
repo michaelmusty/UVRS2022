@@ -37,5 +37,5 @@ pip freeze > requirements.txt
 
 Note that we can format python code, imports, and mypy type checking using
 ```
-isort . && black . && mypy .
+isort --skip-gitignore . && black . && mypy .
 ```
