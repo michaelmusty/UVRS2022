@@ -27,10 +27,15 @@ source env/bin/activate
 
 Now `pip install` any packages you need
 ```
-pip install isort, loguru, black, mypy, numpy, pandas
+pip install isort loguru black mypy numpy pandas
 ```
 and when you are satisfied with your environment you can
 freeze dependencies
 ```
 pip freeze > requirements.txt
+```
+
+Note that we can format python code, imports, and mypy type checking using
+```
+isort . && black . && mypy .
 ```
