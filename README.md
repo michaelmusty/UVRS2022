@@ -27,7 +27,7 @@ source env/bin/activate
 
 Now `pip install` any packages you need
 ```
-pip install isort loguru black mypy numpy pandas
+pip install isort loguru black mypy numpy pandas bs4 requests selenium
 ```
 and when you are satisfied with your environment you can
 freeze dependencies
