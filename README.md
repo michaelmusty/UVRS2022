@@ -84,3 +84,4 @@ The steps are detailed in the references.
 * [https://bergvca.github.io/2017/10/14/super-fast-string-matching.html](https://bergvca.github.io/2017/10/14/super-fast-string-matching.html)
 * [https://bergvca.github.io/2020/01/02/string-grouper.html](https://bergvca.github.io/2020/01/02/string-grouper.html)
 * [https://github.com/Bergvca/string_grouper](https://github.com/Bergvca/string_grouper)
+* [https://stackoverflow.com/questions/33021874/heroku-gunicorn-not-working-bash-gunicorn-command-not-found](https://stackoverflow.com/questions/33021874/heroku-gunicorn-not-working-bash-gunicorn-command-not-found)

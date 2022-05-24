@@ -11,7 +11,7 @@ import plotly.io as pio
 from dash import dcc, html
 from dash.dependencies import Input, Output
 
-pio.templates.default = "plotly_dark"
+# pio.templates.default = "plotly_dark"
 
 # read table with all race scores
 
@@ -56,7 +56,13 @@ app.layout = html.Div(
 def update_graph(age_group):
     dff = df[df["Age Group"] == age_group]
     fig = px.bar(
-        dff, y="Individual", x="Score", color="Race", orientation="h", barmode="stack"
+        dff,
+        y="Individual",
+        x="Score",
+        hover_data=["Net Time"],
+        color="Race",
+        orientation="h",
+        barmode="stack",
     )
     fig.update_layout(barmode="stack", yaxis={"categoryorder": "total ascending"})
     return fig

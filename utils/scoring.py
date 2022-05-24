@@ -23,16 +23,20 @@ def build_df(participants: List[Participant]):
     col_age_group: List[
         str
     ] = []  # column "Age Group" with the age group of participant
+    col_net_time_str: List[str] = []  # column "Net Time" as a string
 
     # each pair (p,race) corresponds to a row of df
     for p in participants:
         for race in p.races:
-            i, s, r, a = get_df_row(participant=p, participants=participants, race=race)
+            i, s, r, a, n = get_df_row(
+                participant=p, participants=participants, race=race
+            )
             col_individual.append(i)
             col_score.append(s)
             col_race.append(r)
             col_age_group.append(a)
-            logger.info(f"data row: {i}, {s}, {r}, {a}")
+            col_net_time_str.append(n)
+            logger.info(f"data row: {i}, {s}, {r}, {a}, {n}")
 
     # build dict and then df
     df = pd.DataFrame(
@@ -41,6 +45,7 @@ def build_df(participants: List[Participant]):
             "Score": col_score,
             "Race": col_race,
             "Age Group": col_age_group,
+            "Net Time": col_net_time_str,
         }
     )
 
@@ -53,9 +58,9 @@ def build_df(participants: List[Participant]):
 
 def get_df_row(
     participant: Participant, participants: List[Participant], race: Race
-) -> Tuple[str, int, str, str]:
+) -> Tuple[str, int, str, str, str]:
     """
-    returns a 4-tuple (individual, score, race, age_group) for the participant in given race
+    returns a 5-tuple (individual, score, race, age_group, net_time_str) for the participant in given race
     the score is computed for participant relative to the other participants
     """
     assert (
@@ -124,12 +129,17 @@ def get_df_row(
     elif len(p_with_faster_time) > 14:  # then participant placed 16th or higher
         score: int = 25
 
-    # return 4-tuple
+    # get racer corresponding to input race
+    # to extract net time from
+    racer: Racer = participant.racers[participant.races.index(race)]
+
+    # return 5-tuple
     return (
         participant.person.name(),
         score,
         race.get_full_name(),
         participant_age_group,
+        racer.net_time_str,
     )
 
 
@@ -145,6 +155,7 @@ def build_filtered_df(participants: List[Participant], N: int):
     col_age_group: List[
         str
     ] = []  # column "Age Group" with the age group of participant
+    col_net_time_str: List[str] = []  # column "Net Time" as a string
 
     # each pair (p,race) corresponds to a row of df
     for p in participants:
@@ -154,13 +165,17 @@ def build_filtered_df(participants: List[Participant], N: int):
         col_s: List[int] = []
         col_r: List[str] = []
         col_a: List[str] = []
+        col_n: List[str] = []
         for race in p.races:
-            i, s, r, a = get_df_row(participant=p, participants=participants, race=race)
+            i, s, r, a, n = get_df_row(
+                participant=p, participants=participants, race=race
+            )
             col_i.append(i)
             col_s.append(s)
             col_r.append(r)
             col_a.append(a)
-            logger.info(f"data row: {i}, {s}, {r}, {a}")
+            col_n.append(n)
+            logger.info(f"data row: {i}, {s}, {r}, {a}, {n}")
         # now filter to length N by popping rows with minimum score (col_s has scores) until length <= N
         while len(col_s) > N:
             min_ind = col_s.index(
@@ -170,18 +185,22 @@ def build_filtered_df(participants: List[Participant], N: int):
             col_s.pop(min_ind)
             col_r.pop(min_ind)
             col_a.pop(min_ind)
+            col_n.pop(min_ind)
         assert len(col_i) <= N
         assert len(col_s) <= N
         assert len(col_r) <= N
         assert len(col_a) <= N
+        assert len(col_n) <= N
         assert len(col_i) == len(col_s)
         assert len(col_i) == len(col_r)
         assert len(col_i) == len(col_a)
+        assert len(col_i) == len(col_n)
         # now concatenate lists
         col_individual += col_i
         col_score += col_s
         col_race += col_r
         col_age_group += col_a
+        col_net_time_str += col_n
 
     # build dict and then df
     df = pd.DataFrame(
@@ -190,6 +209,7 @@ def build_filtered_df(participants: List[Participant], N: int):
             "Score": col_score,
             "Race": col_race,
             "Age Group": col_age_group,
+            "Net Time": col_net_time_str,
         }
     )
 
