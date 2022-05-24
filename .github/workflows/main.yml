@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "UVRS2022"
+          heroku_app_name: "uvrs2022"
           heroku_email: "michaelmusty@gmail.com"
