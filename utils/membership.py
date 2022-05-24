@@ -3,6 +3,8 @@
 import csv
 import glob
 import os
+from itertools import combinations
+from math import comb
 from typing import Dict, List
 
 import pandas as pd  # type: ignore
@@ -97,4 +99,9 @@ def create_people_from_membership_list() -> List[Person]:
         # else:
         #     logger.info(f"Person could not be built for row {i}")
     logger.info(f"Created {len(people)} people")
-    return people
+    # dedup
+    for p1, p2 in combinations(people, 2):
+        if p1 == p2:
+            people.remove(p1)
+    logger.info(f"After dedup we have {len(people)} people")
+    return list(people)

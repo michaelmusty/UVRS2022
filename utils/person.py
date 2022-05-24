@@ -64,3 +64,11 @@ class Person:
         """date the person joined UVRC"""
         month, day, year = [int(x) for x in self.date_str.split("/")]
         return datetime(year, month, day)
+
+    def __eq__(self, other):
+        if isinstance(other, Person):
+            return (
+                self.name() == other.name()
+                and self.date_of_birth() == self.date_of_birth()
+            )
+        return False
