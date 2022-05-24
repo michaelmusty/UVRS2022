@@ -31,11 +31,14 @@ def main():
     # build output_data tables
     logger.info("BUILDING OUTPUT TABLE")
     build_df(participants=participants_for_scoring)  # does not filter top races
-    logger.info("BUILD FILTERED TABLE")
-    build_filtered_df(participants=participants_for_scoring, N=5)  # filters top N races
 
-    # # build output_data/participation/snapshot_YYYYMMDDHHMMSS.csv
-    # # build_participation_snapshot(participants=participants_all)
+    # FIXME: instead of choosing top N races, just aggregate total score (removing races is confusing)
+    logger.info("BUILD FILTERED TABLE")
+    build_filtered_df(participants=participants_for_scoring, N=6)  # filters top N races
+
+    # TODO: dump scores and participant list
+    # build output_data/participation/snapshot_YYYYMMDDHHMMSS.csv
+    # build_participation_snapshot(participants=participants_all)
 
 
 if __name__ == "__main__":

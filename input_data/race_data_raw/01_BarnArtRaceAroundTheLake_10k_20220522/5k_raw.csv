@@ -1,0 +1,193 @@
+,Place,Bib,Name,Gender,City,State,Country,ClockTime,ChipTime,Pace,Age,AgePercentage
+0,1,323,J Jake Madden,M,Albany,NY,US,25:56.28,25:56.28,8:21,16,50.6
+1,2,204,I Izze Baggish,F,Woodstock,VT,US,26:13.96,26:13.96,8:27,13,61.2
+2,3,443,C C. Schembri,M,,,,26:14.30,26:14.30,8:27,10,58.6
+3,4,288,B Benjamin Jerris,M,Somerville,NJ,US,26:42.25,26:42.25,8:36,17,48.5
+4,5,203,E E. Baggish,M,Woodstock,VT,US,26:43.71,26:43.71,8:36,11,55.2
+5,6,293,J Jasper Jones,M,Thetford Center,VT,US,27:00.44,27:00.44,8:42,15,49.2
+6,7,316,C C. Little,M,WOODSTOCK,VT,US,27:59.90,27:59.90,9:01,12,51.0
+7,8,449,C Craig Manning,M,Norwich,VT,US,28:37.33,28:37.33,9:13,46,49.4
+8,9,329,R Radek Marzec,M,Woodstock,VT,US,28:39.00,28:39.00,9:13,44,48.7
+9,10,445,J John Endicott,M,Taftsville,VT,US,28:40.88,28:40.88,9:14,60,55.3
+10,11,301,G Gabrielle Knight,F,Essex Junction,VT,US,28:50.59,28:50.59,9:17,19,51.1
+11,12,305,P Parker Kuhnert,M,Woodstock,VT,US,29:01.85,29:01.85,9:21,18,44.3
+12,13,234,D David Costello,M,Woodstock,VT,US,29:30.93,29:30.93,9:30,59,53.3
+13,14,278,A Aaron Hodge,M,New London,NH,US,29:41.91,29:41.91,9:34,29,43.3
+14,15,333,J Jerome McDougle,M,Walpole,NH,US,29:56.58,29:56.58,9:38,67,56.4
+15,16,295,R R. Jones,M,Hanover,NH,US,30:04.92,30:04.92,9:41,12,47.4
+16,17,423,S S. Wilson,M,Cumberland Center,ME,US,30:05.18,30:05.18,9:41,10,57.3
+17,18,339,D Douglas Moore,M,Lebanon,NH,US,30:08.68,30:08.68,9:42,62,53.6
+18,19,254,A Anonymous Participant,F,,,US,30:13.08,30:13.08,9:44,61,61.9
+19,20,227,I Isabel Cellini,F,Pomfret,VT,US,30:17.93,30:17.93,9:45,15,51.1
+20,21,404,J James Underwood,M,Woodstock,VT,US,30:17.97,30:17.97,9:45,16,43.3
+21,22,403,B Bonnie Underwood,F,Woodstock,VT,US,30:25.22,30:25.22,9:47,47,52.5
+22,23,447,J Jason Faris,M,,,,30:28.38,30:28.38,9:48,50,48.0
+23,24,436,J Jeff Reed,M,,,,30:54.56,30:54.56,9:57,68,55.2
+24,25,332,M Miles Matule,M,West Hartford,CT,US,31:05.23,31:05.23,10:00,26,41.3
+25,26,294,J Jessica Jones,F,Hanover,NH,US,31:28.12,31:28.12,10:08,42,48.7
+26,27,340,J Janet Moore,F,Lebanon,NH,US,31:35.00,31:35.00,10:10,60,58.6
+27,28,360,B Bridget Rauh,F,West Hartford,CT,US,31:35.20,31:35.20,10:10,26,46.6
+28,29,302,J Jeff Knight,M,Essex Junction,VT,US,32:15.72,32:15.72,10:23,52,46.0
+29,30,257,D Django Farinas,M,Barnard,VT,US,32:23.24,32:23.24,10:25,16,40.5
+30,31,347,Alexandria Pariseau,F,Millbury,MA,US,32:40.69,32:40.69,10:31,25,45.1
+31,32,411,J J. Welch,F,Hanover,NH,US,33:03.49,33:03.49,10:38,10,52.2
+32,33,420,C C. Wilson,M,Cumberland Center,ME,US,33:03.76,33:03.76,10:39,10,46.5
+33,34,277,S Seth Hisman,M,South Royalton,VT,US,33:28.77,33:28.77,10:47,41,40.7
+34,35,216,G Gayle Berretta,F,San Diego,CA,US,33:36.94,33:36.94,10:49,61,55.7
+35,36,396,B Brie Swenson,F,Norwich,VT,US,33:38.60,33:38.60,10:50,45,46.6
+36,37,285,H H. Jarrait,M,South Royalton,VT,US,33:49.68,33:49.68,10:53,12,42.2
+37,38,206,M Matt Bangerter,M,Bethel,VT,US,33:53.27,33:53.27,10:54,14,40.0
+38,39,243,L Lauren Dorsey,F,Hanover,NH,US,34:24.48,34:24.48,11:04,22,42.8
+39,40,330,L Lucia Matule,F,South Royalton,VT,US,34:33.80,34:33.80,11:07,55,50.4
+40,41,395,B B. Swenson,F,Norwich,VT,US,34:47.45,34:47.45,11:12,12,47.2
+41,42,331,M Matthew Matule,M,South Royalton,VT,US,34:59.59,34:59.59,11:16,55,43.5
+42,43,434,A Annesonia Beardsley,F,Barnard,VT,US,35:04.39,35:04.39,11:17,14,44.9
+43,44,230,J James Clarke,M,North Weymouth,MA,US,35:05.89,35:05.89,11:18,69,49.1
+44,45,279,A Anna Hubbard,X,Cornish,NH,US,35:16.20,35:16.20,11:21,23,
+45,46,444,J John Valentine,M,,,,35:16.38,35:16.38,11:21,72,50.7
+46,47,327,A Agata Marzec,F,Woodstock,VT,US,35:17.36,35:17.36,11:22,41,43.1
+47,48,309,T Tess Lawlor,F,Helena,MT,US,35:24.35,35:24.35,11:24,16,43.0
+48,49,416,L L. Wheeler,M,Woodstock,VT,US,35:29.71,35:29.71,11:25,12,40.2
+49,50,268,L Lucy Glueck,F,Hanover,NH,US,35:34.38,35:34.38,11:27,19,41.4
+50,51,225,E Emily Cass,F,Randolph,VT,US,35:35.24,35:35.24,11:27,24,41.4
+51,52,363,P Paqua Render,F,Thetford Center,VT,US,35:35.31,35:35.31,11:27,41,42.8
+52,53,354,C Coral Pope,F,Sharon,VT,US,35:53.24,35:53.24,11:33,13,44.8
+53,54,433,M Mickey Lackey,M,,,,35:55.64,35:55.64,11:34,77,54.1
+54,55,300,E Erin Kinnarney,F,Randolph Center,VT,US,36:05.72,36:05.72,11:37,32,40.9
+55,56,335,H Hayley Mears,F,Rochester,VT,US,36:07.29,36:07.29,11:38,22,40.8
+56,57,389,A Annemarie Stout,F,Plainfield,NH,US,36:56.31,36:56.31,11:53,56,47.7
+57,58,275,T Tracy Hazen,F,Lebanon,NH,US,36:56.36,36:56.36,11:53,46,42.8
+58,59,382,J Jenny Smith,F,Newport,NH,US,37:08.84,37:08.84,11:57,37,40.2
+59,60,209,S Shani Bardach,F,Norwich,VT,US,37:11.46,37:11.46,11:58,39,40.5
+60,61,435,S S. Beardsley,F,Barnard,VT,US,37:24.65,37:24.65,12:02,11,44.9
+61,62,412,M Marnie Welch,F,Hanover,NH,US,37:52.62,37:52.62,12:11,42,40.4
+62,63,242,J Jeffrey Doris,M,Montpelier,VT,US,37:58.17,37:58.17,12:13,48,37.9
+63,64,217,J Julie Bier,F,Montpelier,VT,US,37:58.24,37:58.24,12:13,41,40.1
+64,65,421,M Melissa Wilson,F,Cumberland Center,ME,US,38:27.47,38:27.47,12:23,51,43.3
+65,66,246,D David Dowling,M,Cumberland Center,ME,US,38:27.59,38:27.59,12:23,68,44.3
+66,67,431,J James King,M,,,,38:31.80,38:31.80,12:24,59,40.8
+67,68,208,R R. Bardach,M,Norwich,VT,US,38:32.88,38:32.88,12:24,10,39.9
+68,69,397,C C. Swenson,F,Norwich,VT,US,38:33.06,38:33.06,12:25,10,44.7
+69,70,215,S Sarah Berman,F,Plainfield,NH,US,38:46.81,38:46.81,12:29,27,38.0
+70,71,409,A A. Welch,M,Hanover,NH,US,39:16.86,39:16.86,12:39,7,46.1
+71,72,200,H Holly Adkins,F,Laurel,DE,US,39:23.85,39:23.85,12:41,55,44.2
+72,73,201,J Jacob Adkins,M,Laurel,DE,US,39:24.88,39:24.88,12:41,26,32.6
+73,74,221,J J. Blair,M,Mont-Royal,QC,CA,39:32.03,39:32.03,12:43,11,37.4
+74,75,336,C Carmen Menendez,F,Windsor,VT,US,40:34.70,40:34.70,13:04,62,46.7
+75,76,271,Janice Graham,F,Woodstock,VT,US,40:35.75,40:35.75,13:04,62,46.7
+76,77,260,A Alejandra Felix Bangerter,F,Bethel,VT,US,40:39.20,40:39.20,13:05,47,39.3
+77,78,356,J Javaeria Qureshi,F,Norwich,VT,US,41:24.03,41:24.03,13:20,35,35.8
+78,79,328,K Kuba Marzec,M,Woodstock,VT,US,42:22.33,42:22.33,13:38,16,31.0
+79,80,283,S Skylar Jager,F,Landgrove,VT,US,42:23.42,42:23.42,13:39,15,36.5
+80,81,251,C Charlotte Effron,F,New York,NY,US,42:48.22,42:48.22,13:47,17,35.0
+81,82,344,S Shingai Njeri,F,Vershire,VT,US,42:49.13,42:49.13,13:47,25,34.4
+82,83,220,E E. Blair,F,Mont-Royal,QC,CA,42:55.18,42:55.18,13:49,12,38.2
+83,84,440,E Eric Gruber,M,Lyme,NH,US,42:57.45,42:57.45,13:50,37,30.8
+84,85,417,c chris white,M,Quechee,VT,US,43:02.70,43:02.70,13:51,37,30.7
+85,86,392,L Lindsay Sturman,F,Hanover,NH,US,43:20.36,43:20.36,13:57,39,34.7
+86,87,391,J Jed Sturman,M,Hanover,NH,US,43:20.42,43:20.42,13:57,41,31.5
+87,88,313,L L. LeVine,M,Hanover,NH,US,43:25.05,43:25.05,13:58,9,37.1
+88,89,315,S Shankar LeVine,M,Hanover,NH,US,43:25.98,43:25.98,13:59,41,31.4
+89,90,407,C Charlotte Ward,F,Barnard,VT,US,43:40.85,43:40.85,14:04,13,36.8
+90,91,414,H H. Wheeler,F,Woodstock,VT,US,43:45.25,43:45.25,14:05,8,41.8
+91,92,205,A Amelia Bailey Kellogg,F,Sharon,VT,US,43:47.19,43:47.19,14:06,14,36.0
+92,93,267,M Matthew Gilliland,M,Lebanon,NH,US,43:55.17,43:55.17,14:08,32,29.3
+93,94,422,P Pippa Wilson,F,Cumberland Center,ME,US,44:06.71,44:06.71,14:12,13,36.4
+94,95,341,p palaniappan nagappan,M,Lebanon,NH,US,44:26.19,44:26.19,14:18,36,29.6
+95,96,286,O O. Jarrait,M,South Royalton,VT,US,44:37.14,44:37.14,14:22,9,36.1
+96,97,334,J Jill Mcmanus,F,Waitsfield,VT,US,44:37.74,44:37.74,14:22,45,35.1
+97,98,402,B Bethany Tucker,F,East Corinth,VT,US,45:27.81,45:27.81,14:38,37,32.8
+98,99,418,D D. Wholey,M,East Corinth,VT,US,45:28.25,45:28.25,14:38,12,31.4
+99,100,213,Meg Belden,F,Newport,RI,US,45:33.82,45:33.82,14:40,35,32.6
+100,101,214,E Erin Bennett,F,New London,NH,US,46:11.45,46:11.45,14:52,28,31.9
+101,102,375,K Kate Rohdenburg,F,Windsor,VT,US,46:53.97,46:53.97,15:06,37,31.8
+102,103,410,I I. Welch,M,Hanover,NH,US,47:04.05,47:04.05,15:09,12,30.3
+103,104,348,A A. Park,F,Barnard,VT,US,47:12.45,47:12.45,15:12,10,36.5
+104,105,276,S Sarah Hisman,F,South Royalton,VT,US,47:20.01,47:20.01,15:14,34,31.3
+105,106,350,C C. Park,M,Barnard,VT,US,47:25.64,47:25.64,15:16,7,38.2
+106,107,349,C Carin Park,F,Barnard,VT,US,47:26.53,47:26.53,15:16,47,33.7
+107,108,284,C Conor Jarrait,M,South Royalton,VT,US,47:57.80,47:57.80,15:26,14,28.3
+108,109,415,K Kevin Wheeler,M,Barnard,VT,US,48:02.44,48:02.44,15:28,45,29.2
+109,110,439,K K. Ruch,M,,,,48:41.05,48:41.05,15:40,9,33.1
+110,111,211,S S. Barrows,M,Colrain,MA,US,49:22.78,49:22.78,15:54,12,28.9
+111,112,252,D Darwin Eton,M,Woodstock,VT,US,49:25.99,49:25.99,15:55,64,33.2
+112,113,218,J Jennilee Bigl,F,Bradford,VT,US,49:36.83,49:36.83,15:58,38,30.2
+113,114,385,C C. Stack,F,Hanover,NH,US,49:49.25,49:49.25,16:02,8,36.7
+114,115,386,N N. Stack,F,Hanover,NH,US,49:50.17,49:50.17,16:02,8,36.7
+115,116,262,J Jessica Foley,F,Hanover,NH,US,49:52.53,49:52.53,16:03,42,30.7
+116,117,367,J J. Rich,M,Barnard,VT,US,49:57.14,49:57.14,16:05,10,30.8
+117,118,364,D DENA RHYS,F,Barnard,VT,US,50:03.07,50:03.07,16:07,61,37.4
+118,119,437,A Arlana Ruch,F,,,,50:05.47,50:05.47,16:07,32,29.4
+119,120,368,N Nathan Rich,M,Barnard,VT,US,50:06.64,50:06.64,16:08,44,27.8
+120,121,56,A Ann Greenwald,F,Lebanon,NH,US,50:39.14,50:39.14,16:18,56,34.8
+121,122,380,M Michael Shover,M,Bradford,VT,US,50:43.19,50:43.19,16:20,73,35.8
+122,123,306,C Cheryl Lasell,F,Williamstown,VT,US,50:52.03,50:52.03,16:22,62,37.3
+123,124,231,S Sylvie Coltey,F,Bethel,VT,US,51:01.93,51:01.93,16:26,20,28.9
+124,125,240,J Johanna De Graffenreid,F,Montpelier,VT,US,51:04.68,51:04.68,16:26,36,29.1
+125,126,365,L LINDSAY RHYS,F,Barnard,VT,US,51:23.07,51:23.07,16:32,25,28.7
+126,127,298,L Lee Khan,F,Brookfield,VT,US,51:24.82,51:24.82,16:33,70,41.0
+127,128,383,L Lindsay Smith,F,Enfield,NH,US,52:17.10,52:17.10,16:50,47,30.5
+128,129,366,A Ava Rich,F,Barnard,VT,US,53:13.91,53:13.91,17:08,13,30.2
+129,130,438,J Jada Ruch,F,,,,53:13.96,53:13.96,17:08,13,30.2
+130,131,355,S Suzy Psomas,F,Hanover,NH,US,54:01.38,54:01.38,17:23,55,32.3
+131,132,408,K Kate Ward,F,Barnard,VT,US,54:19.76,54:19.76,17:29,47,29.4
+132,133,219,E Elizabeth Blain,F,South Royalton,VT,US,55:16.18,55:16.18,17:47,30,26.7
+133,134,258,M Marlena Farinas,F,Barnard,VT,US,56:34.41,56:34.41,18:13,13,28.4
+134,135,137,B Brian Summers,M,Glastonbury,CT,US,27:02.09,56:47.47,18:17,58,27.5
+135,136,138,H Heather Summers,F,Glastonbury,CT,US,27:02.25,56:47.63,18:17,57,31.4
+136,137,273,J J. Hartford,M,North Pomfret,VT,US,57:24.56,57:24.56,18:29,6,33.9
+137,138,274,T Tracie Hartford,F,North Pomfret,VT,US,57:25.21,57:25.21,18:29,39,26.2
+138,139,400,J Jill Thomas,F,South Royalton,VT,US,57:37.11,57:37.11,18:33,58,31.3
+139,140,424,J Joani Yankee,F,South Royalton,VT,US,57:37.18,57:37.18,18:33,80,42.5
+140,141,245,T Tim Dowd,M,Takoma Park,VT,US,58:04.63,58:04.63,18:42,56,26.4
+141,142,202,N Nancy Atwell,F,South Pomfret,VT,US,58:05.52,58:05.52,18:42,56,30.4
+142,143,287,S Stephanie Jarrait,F,South Royalton,VT,US,58:11.81,58:11.81,18:44,36,25.5
+143,144,405,D Douglas Van Dalinda,M,Barnard,VT,US,58:15.11,58:15.11,18:45,53,25.7
+144,145,308,H Heather Lawler,F,Barnard,VT,US,58:15.63,58:15.63,18:45,49,28.0
+145,146,224,J Jennifer Cardello,F,Barnard,VT,US,58:27.33,58:27.33,18:49,51,28.5
+146,147,318,Z Z. Little,F,WOODSTOCK,VT,US,59:07.57,59:07.57,19:02,10,29.2
+147,148,441,M Melanie Watts,F,,,,59:16.13,59:16.13,19:05,45,26.5
+148,149,314,N N. LeVine,F,Hanover,NH,US,59:16.45,59:16.45,19:05,8,30.8
+149,150,226,A Annabel Cellini,F,South Royalton,VT,US,59:17.33,59:17.33,19:05,46,26.7
+150,151,317,H Heather Little,F,Woodstock,VT,US,59:18.06,59:18.06,19:05,44,26.2
+151,152,272,V Veronica Harrington,F,Cavendish,VT,US,59:36.13,59:36.13,19:11,58,30.3
+152,153,310,B Brenda LeBlanc,F,North Pomfret,VT,US,59:36.31,59:36.31,19:11,60,31.0
+153,154,248,S Shanna Duffy,F,South Royalton,VT,US,59:37.92,59:37.92,19:12,30,24.7
+154,155,398,A Anonymous Participant,F,,,US,1:00:01.74,1:00:01.74,19:19,52,28.1
+155,156,430,N Norma Thomson,F,,,,1:00:41.61,1:00:41.61,19:32,62,31.2
+156,157,337,T Tony Merchand,M,Rutland,VT,US,1:00:43.73,1:00:43.73,19:33,72,29.5
+157,158,123,A Alistair Smith,M,Lebanon,NH,US,31:20.88,1:01:06.26,19:40,13,22.7
+158,159,124,C Colin Smith,M,Lebanon,NH,US,31:21.22,1:01:06.60,19:40,46,23.2
+159,160,212,L Linda Bedford,F,Etna,NH,US,1:01:18.15,1:01:18.15,19:44,59,29.8
+160,161,247,A Anita Duffy,F,South Royalton,VT,US,1:01:19.17,1:01:19.17,19:44,70,34.4
+161,162,235,R Rachel Cox,F,Barnard,VT,US,1:01:32.81,1:01:32.81,19:49,69,33.7
+162,163,322,G Gidget Lyman,F,South Royalton,VT,US,1:01:45.44,1:01:45.44,19:53,52,27.3
+163,164,425,Michelle Zdunek,F,Bellows Falls,VT,US,1:01:46.07,1:01:46.07,19:53,41,24.6
+164,165,325,C C. Malin-Stremlau,X,Sharon,VT,US,1:01:56.74,1:01:56.74,19:56,12,
+165,166,442,N Nancy Brittain,F,,,,1:01:57.73,1:01:57.73,19:57,68,33.1
+166,167,324,D Daniella Malin,F,Sharon,VT,US,1:01:58.64,1:01:58.64,19:57,53,27.5
+167,168,446,P Pam Butler,F,,,,1:02:42.50,1:02:42.50,20:11,64,31.0
+168,169,346,M Marina Pappas,F,Holliston,MA,US,1:02:43.33,1:02:43.33,20:11,32,23.5
+169,170,270,A Alicia Good,F,North Falmouth,MA,US,1:02:43.53,1:02:43.53,20:11,62,30.2
+170,171,426,G Gabrielle Zwain,F,Norwich,VT,US,1:04:14.32,1:04:14.32,20:41,43,24.0
+171,172,207,P Philip Banios,M,Westford,MA,US,1:04:31.51,1:04:31.51,20:46,63,25.3
+172,173,210,K Kate Barrows,F,Colrain,MA,US,1:05:01.57,1:05:01.57,20:56,44,23.9
+173,174,413,A Amy Wheeler,F,Woodstock,VT,US,1:05:02.27,1:05:02.27,20:56,45,24.1
+174,175,381,J Jacklynn Showerman,F,Chelsea,VT,US,1:05:06.89,1:05:06.89,20:58,14,24.2
+175,176,352,L Loretta Pickett,F,Chelsea,VT,US,1:05:07.00,1:05:07.00,20:58,47,24.5
+176,177,387,N Neil Stannard,M,White River Junction,VT,US,1:05:51.39,1:05:51.39,21:12,71,26.8
+177,178,428,V V. Zwain,F,Norwich,VT,US,1:05:55.13,1:05:55.13,21:13,8,27.7
+178,179,427,S Sally Zwain,F,White River Junction,VT,US,1:06:01.23,1:06:01.23,21:15,68,31.1
+179,180,241,N Nadia Derryck,F,Oakland,CA,US,1:06:32.06,1:06:32.06,21:25,17,22.5
+180,181,299,A Anna Kim,F,San Jose,CA,US,1:06:39.00,1:06:39.00,21:27,16,22.8
+181,182,432,S Sebastian Urena,M,,,,1:06:39.77,1:06:39.77,21:27,16,19.7
+182,183,261,P Pamela Fitzgerald,F,Randolph Center,VT,US,1:08:13.65,1:08:13.65,21:58,68,30.0
+183,184,222,P Peter Bonaccorsi,M,Randolph Center,VT,US,1:08:17.08,1:08:17.08,21:59,77,28.5
+184,185,269,S Samuel Glueck,M,Hanover,NH,US,1:08:23.89,1:08:23.89,22:01,26,18.8
+185,186,448,k katie faris,F,Hanover,NH,US,38:58.36,1:08:43.74,22:07,48,23.5
+186,187,326,D DIANE MARTIN,F,Bridgewater Corners,VT,US,1:09:27.80,1:09:27.80,22:21,56,25.4
+187,188,406,S Sarah Walker,F,Bridgewater,VT,US,1:09:32.71,1:09:32.71,22:23,51,24.0
+188,189,249,A Angela Earle,F,Bridgewater Corners,VT,US,1:09:39.37,1:09:39.37,22:25,53,24.5
+189,190,311,S Susan Leibovitz,F,New York,NY,US,1:12:19.54,1:12:19.54,23:17,17,20.7
+190,191,319,A Abby Lowe,F,Arlington,VA,US,1:12:19.66,1:12:19.66,23:17,17,20.7
+191,192,338,E Elwyn Mitchell,M,Vershire,VT,US,1:12:23.93,1:12:23.93,23:18,16,18.1
