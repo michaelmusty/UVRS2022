@@ -10,6 +10,7 @@ import plotly.express as px
 import plotly.io as pio
 from dash import dcc, html
 from dash.dependencies import Input, Output
+from loguru import logger
 
 # pio.templates.default = "plotly_dark"
 
@@ -17,7 +18,9 @@ from dash.dependencies import Input, Output
 
 path = os.path.abspath("output_data/tables/")
 list_of_filenames = glob.glob(f"{path}/*")
-df = pd.read_csv(max(list_of_filenames, key=os.path.getctime))
+filename_used = max(list_of_filenames, key=os.path.getctime)
+logger.info(filename_used)
+df = pd.read_csv(filename_used)
 df.sort_values(by=["Race"], inplace=True)
 
 # read table with only top N race scores
