@@ -41,11 +41,15 @@ isort --skip-gitignore . && black . && mypy .
 ```
 
 ## github, deployment, environment, and tests (eventually)
+
 * `build.py` script to build `output_data` from `input_data`
 * `app.py` contains the frontend logic for the Dash app
 * `requirements.txt` contains the dependencies for the virtualenv
 * `Procfile` is necessary for Heroku deployment
 * `.github/workflows/main.yml` controls github action to deploy to Heroku on a push
+
+Note that deployment on a push requires a heroku project, creating a repository secret with the heroku API key, etc.
+The steps are detailed in the references.
 
 ## python code
 ### `utils/` directory with the backend python code
