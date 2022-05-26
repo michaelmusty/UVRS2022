@@ -32,7 +32,7 @@ df_filtered.sort_values(by=["Race"], inplace=True)
 
 # all the app stuff
 
-available_indicators = df["Age Group"].unique()
+available_indicators = sorted(df["Age Group"].unique())
 
 app = dash.Dash(__name__)
 app.title = "2022 UVRS Scorecard"
