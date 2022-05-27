@@ -32,11 +32,15 @@ def main():
     logger.info("BUILDING OUTPUT TABLE")
     build_df(participants=participants_for_scoring)  # does not filter top races
 
-    # FIXME: instead of choosing top N races, just aggregate total score (removing races is confusing)
-    logger.info("BUILD FILTERED TABLE")
-    build_filtered_df(participants=participants_for_scoring, N=6)  # filters top N races
+    # TODO: build scorecard: raw text output of overall scores for everybody
+    # location: output_data/scorecards/scorecard_YYYYMMDDHHMMSS.csv
+    # build_scorecard(participants=participants_for_scoring)
 
-    # TODO: dump scores and participant list
+    # TODO: build detailed_scorecard: raw text output of all scores (every race) for everybody
+    # location: output_data/detailed_scorecards/detailed_scorecard_YYYYMMDDHHMMSS.csv
+    # build_detailed_scorecard(participants=participants_for_scoring)
+
+    # TODO: dump participant list
     # build output_data/participation/snapshot_YYYYMMDDHHMMSS.csv
     # build_participation_snapshot(participants=participants_all)
 
