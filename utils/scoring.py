@@ -143,83 +143,16 @@ def get_df_row(
     )
 
 
-def build_filtered_df(participants: List[Participant], N: int):
-    """same as build_df but filters top N races"""
-
-    # initialize columns of table we want to construct
-    col_individual: List[str] = []  # column "Individual" with name of a participant
-    col_score: List[
-        int
-    ] = []  # column "Score" with an individual's score for a given race
-    col_race: List[str] = []  # column "Race" with name of a race
-    col_age_group: List[
-        str
-    ] = []  # column "Age Group" with the age group of participant
-    col_net_time_str: List[str] = []  # column "Net Time" as a string
-
-    # each pair (p,race) corresponds to a row of df
-    for p in participants:
-        col_i: List[
-            str
-        ] = []  # these are partial columns for rows corresponding to p only
-        col_s: List[int] = []
-        col_r: List[str] = []
-        col_a: List[str] = []
-        col_n: List[str] = []
-        for race in p.races:
-            i, s, r, a, n = get_df_row(
-                participant=p, participants=participants, race=race
-            )
-            col_i.append(i)
-            col_s.append(s)
-            col_r.append(r)
-            col_a.append(a)
-            col_n.append(n)
-            logger.info(f"data row: {i}, {s}, {r}, {a}, {n}")
-        # now filter to length N by popping rows with minimum score (col_s has scores) until length <= N
-        while len(col_s) > N:
-            min_ind = col_s.index(
-                min(col_s)
-            )  # the index of the (first) minimum score in the list col_s
-            col_i.pop(min_ind)
-            col_s.pop(min_ind)
-            col_r.pop(min_ind)
-            col_a.pop(min_ind)
-            col_n.pop(min_ind)
-        assert len(col_i) <= N
-        assert len(col_s) <= N
-        assert len(col_r) <= N
-        assert len(col_a) <= N
-        assert len(col_n) <= N
-        assert len(col_i) == len(col_s)
-        assert len(col_i) == len(col_r)
-        assert len(col_i) == len(col_a)
-        assert len(col_i) == len(col_n)
-        # now concatenate lists
-        col_individual += col_i
-        col_score += col_s
-        col_race += col_r
-        col_age_group += col_a
-        col_net_time_str += col_n
-
-    # build dict and then df
-    df = pd.DataFrame(
-        {
-            "Individual": col_individual,
-            "Score": col_score,
-            "Race": col_race,
-            "Age Group": col_age_group,
-            "Net Time": col_net_time_str,
-        }
-    )
-
-    # write df to file
-    dt_str = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    df.to_csv(f"output_data/filtered_tables/df_{dt_str}.csv")
-
-    return df
+# TODO
+def build_participation_snapshot(participants: List[Participant]):
+    pass
 
 
 # TODO
-def build_participation_snapshot(participants: List[Participant]):
+def build_scorecard(participants: List[Participant]):
+    pass
+
+
+# TODO
+def build_scorecard(participants: List[Participant]):
     pass

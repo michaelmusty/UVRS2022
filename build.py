@@ -10,7 +10,12 @@ from utils.participants import get_participants
 from utils.person import Person
 from utils.race import Race
 from utils.races import create_races
-from utils.scoring import build_df, build_filtered_df, build_participation_snapshot
+from utils.scoring import (
+    build_detailed_scorecard,
+    build_df,
+    build_participation_snapshot,
+    build_scorecard,
+)
 
 
 def main():

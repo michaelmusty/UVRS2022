@@ -23,12 +23,7 @@ logger.info(filename_used)
 df = pd.read_csv(filename_used)
 df.sort_values(by=["Race"], inplace=True)
 
-# read table with only top N race scores
-
-path = os.path.abspath("output_data/filtered_tables")
-list_of_filenames = glob.glob(f"{path}/*")
-df_filtered = pd.read_csv(max(list_of_filenames, key=os.path.getctime))
-df_filtered.sort_values(by=["Race"], inplace=True)
+# TODO: overall scores? participation?
 
 # all the app stuff
 
