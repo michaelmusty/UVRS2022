@@ -5,6 +5,7 @@ from typing import Dict, List, Tuple
 
 import pandas as pd  # type: ignore
 from loguru import logger
+from numpy import indices
 
 from utils.participant import Participant
 from utils.race import Race
@@ -143,16 +144,28 @@ def get_df_row(
     )
 
 
-# TODO
 def build_participation_snapshot(participants: List[Participant]):
-    pass
+    # initialize columns of table we want to construct
+    col_individual: List[str] = []  # column "Individual" with name of a participant
+    col_num_races: List[int] = []  # column "NumRaces" number of races participated in
 
+    # each pair (p,race) corresponds to a row of df
+    for p in participants:
+        col_individual.append(p.person.name())
+        col_num_races.append(len(p.races))
 
-# TODO
-def build_scorecard(participants: List[Participant]):
-    pass
+    # build dict and then df
+    df = pd.DataFrame(
+        {
+            "Individual": col_individual,
+            "NumRaces": col_num_races,
+        }
+    )
+    df.sort_values(by="NumRaces", ascending=False, inplace=True)
+    df = df[["Individual", "NumRaces"]]
 
+    # write df to file
+    dt_str = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    df.to_csv(f"output_data/participation/snapshot_{dt_str}.csv")
 
-# TODO
-def build_scorecard(participants: List[Participant]):
-    pass
+    return df

@@ -1,7 +1,10 @@
 """script to build dataframe to be consumed by frontend"""
 
+import glob
+import os
 from typing import List
 
+import pandas as pd
 from loguru import logger
 
 from utils.membership import create_people_from_membership_list
@@ -10,12 +13,33 @@ from utils.participants import get_participants
 from utils.person import Person
 from utils.race import Race
 from utils.races import create_races
-from utils.scoring import (
-    build_detailed_scorecard,
-    build_df,
-    build_participation_snapshot,
-    build_scorecard,
-)
+from utils.scoring import build_df, build_participation_snapshot
+
+N = 6  # number of top races to use for overall score i.e. maximum score = N*100
+
+
+def build_email_text(df):
+    df = df[["Individual", "Score", "Race", "Age Group"]]
+    df_overall = (
+        df.groupby(["Individual", "Age Group"])
+        .agg({"Score": {lambda x: x.nlargest(N).sum()}})
+        .sort_values(["Age Group", ("Score", "<lambda>")], ascending=[True, False])
+    )
+    df_overall.columns = df_overall.columns.get_level_values(0)
+    df_overall.reset_index(inplace=True)
+    age_groups = sorted(df_overall["Age Group"].unique())
+    l: List[str] = []
+    for age_group in age_groups:
+        dff = df_overall[df_overall["Age Group"] == age_group].head(3)[
+            ["Individual", "Score"]
+        ]
+        s_by_age_group = f"{age_group}: "
+        for row in dff.iterrows():
+            individual = row[1].Individual
+            score = row[1].Score
+            s_by_age_group += f"{individual} ({score}) "
+        l.append(s_by_age_group)
+    return "\n".join(l)
 
 
 def main():
@@ -34,20 +58,18 @@ def main():
     )  # participants in any eligible race
 
     # build output_data tables
+    # location: output_data/tables/df_YYYYMMDDHHMMSS.csv
     logger.info("BUILDING OUTPUT TABLE")
-    build_df(participants=participants_for_scoring)  # does not filter top races
+    df = build_df(participants=participants_for_scoring)  # does not filter top races
 
-    # TODO: build scorecard: raw text output of overall scores for everybody
-    # location: output_data/scorecards/scorecard_YYYYMMDDHHMMSS.csv
-    # build_scorecard(participants=participants_for_scoring)
-
-    # TODO: build detailed_scorecard: raw text output of all scores (every race) for everybody
-    # location: output_data/detailed_scorecards/detailed_scorecard_YYYYMMDDHHMMSS.csv
-    # build_detailed_scorecard(participants=participants_for_scoring)
-
-    # TODO: dump participant list
+    # dump participant list
     # build output_data/participation/snapshot_YYYYMMDDHHMMSS.csv
     # build_participation_snapshot(participants=participants_all)
+    logger.info("BUILDING PARTICIPATION SNAPSHOT")
+    build_participation_snapshot(participants=participants_all)
+
+    # logger text to copy pasta into email update with age group leaders
+    logger.info(f"EMAIL TEXT\n{build_email_text(df)}")
 
 
 if __name__ == "__main__":
