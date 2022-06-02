@@ -68,9 +68,7 @@ The steps are detailed in the references.
 
 ### `output_data/`
 * `tables/df_YYYYMMDDHHMMSS.csv` snapshot scores table to be used by `app.py` including all races
-* TODO: `scorecards/scorecard_YYYYMMDDHHMMSS.csv`
-* TODO: `detailed_scorecards/detailed_scorecard_YYYYMMDDHHMMSS.csv`
-* TODO: `participation/snapshot_YYYYMMDDHHMMSS.csv` snapshot of all matched UVRS participants for a given membership snapshot (with private data excluded for privacy) with columns `name`, `age_group`, `number_of_races_participated_in`, `total_score`
+* `participation/snapshot_YYYYMMDDHHMMSS.csv` snapshot of all matched UVRS participants for a given membership snapshot (with private data excluded for privacy) with columns `Individual`, `NumRaces`
 
 ## references
 * [https://stackoverflow.com/questions/58873457/gunicorn-20-failed-to-find-application-object-app-server-in-index](https://stackoverflow.com/questions/58873457/gunicorn-20-failed-to-find-application-object-app-server-in-index)
