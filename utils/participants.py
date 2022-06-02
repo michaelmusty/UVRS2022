@@ -105,4 +105,4 @@ def does_person_match_racer(
 ) -> bool:
     """true if person matches racer based on names only"""
     assert match_algorithm == "exact"
-    return person.name() == racer.get_name()
+    return person.name().casefold() == racer.get_name().casefold()
