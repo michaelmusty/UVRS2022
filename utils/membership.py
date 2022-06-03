@@ -26,9 +26,21 @@ def get_latest_filename(path_to_dir: str) -> str:
 def _format_date(x: str) -> str:
     """
     YYYY-MM-DD HH:MM:SS -> MM/DD/YYYY
+    OR
+    another format -> MM/DD/YYYY
     """
-    a, b = x.split(" ")
-    y, m, d = a.split("-")
+    # parse other formats and redefine x
+    dt = pd.to_datetime(x)
+    x = str(dt.date())
+    # x is now a string of the form YYYY-MM-DD (isoformat)
+    y, m, d = x.split("-")
+    # sanity checks
+    assert len(y) == 4
+    assert int(y) in [2018, 2019, 2020, 2021, 2022]
+    assert len(m) == 2
+    assert int(m) in range(1, 13)
+    assert len(d) == 2
+    assert int(d) in range(1, 32)
     return f"{m}/{d}/{y}"
 
 
