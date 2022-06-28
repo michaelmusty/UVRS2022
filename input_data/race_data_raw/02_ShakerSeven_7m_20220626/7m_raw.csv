@@ -1,0 +1,67 @@
+Place,First Name,Last Name,Age,Sex,Div/Tot,Guntime,Pace,Div,City,St,No.
+1,Ben,Jones,24,M,1,0:42:23,0:06:04,M2029,West Lebanon,NH,86
+2,Gunner,Currier,15,M,1,0:46:35,0:06:40,M0119,Enfield,NH,43
+3,John,Matthews,65,M,1,0:49:14,0:07:02,M6069,Keene,NH,84
+4,Kevin,Schutz,41,M,1,0:50:07,0:07:10,M4049,Lebanon,NH,20
+5,Kevin,Pascoe,57,M,1,0:50:36,0:07:14,M5059,Wilmot,NH,11
+6,Eric,James,44,M,2,0:51:51,0:07:25,M4049,Lebanon,NH,56
+7,Geoff,Dunbar,51,M,2,0:52:21,0:07:29,M5059,Hanover,NH,46
+8,Rob,Daniels,60,M,2,0:52:36,0:07:31,M6069,Canaan,NH,60
+9,Paul,Mazzola,30,M,1,0:54:17,0:07:46,M3039,Enfield,NH,17
+10,Brian,Marsh,37,M,2,0:55:21,0:07:55,M3039,Windsor,VT,33
+11,Jimmy,Wu,46,M,3,0:55:36,0:07:57,M4049,Hanover,NH,83
+12,Tellman,Knudson,45,M,4,0:55:41,0:07:58,M4049,Brattleboro,VT,94
+13,Paul,Wilkins,30,M,3,0:56:00,0:08:00,M3039,Enfield,NH,35
+14,Andrew,Jones,50,M,3,0:56:21,0:08:03,M5059,Enfield,NH,87
+15,Brendan,Von Koss,31,M,4,0:56:38,0:08:06,M3039,Enfield,NH,34
+16,Niels,Poulsen,51,M,4,0:57:42,0:08:15,M5059,Lebanon,NH,6
+17,Abigail,Castriotta,23,F,1,0:58:19,0:08:20,F2029,West Lebanon,NH,88
+18,Brad,McDonald,43,M,5,0:58:28,0:08:22,M4049,Natick,MA,90
+19,Keri,Niles,32,F,1,0:59:04,0:08:27,F3039,Woodstock,VT,67
+20,Myah,Pease,20,F,2,1:00:06,0:08:36,F2029,Charlotte,NC,37
+21,Nicole,Laudano,34,F,2,1:00:21,0:08:38,F3039,Enfield,NH,36
+22,Scott,Pauw,53,M,5,1:01:10,0:08:45,M5059,Hanover,NH,70
+23,James,Simpson,25,M,2,1:01:39,0:08:49,M2029,Bradford,VT,4
+24,Cindy,Glueck,50,F,1,1:02:31,0:08:56,F5059,Hanover,NH,51
+25,David,Glueck,57,M,6,1:02:53,0:08:59,M5059,Hanover,NH,52
+26,Nadia,Lafreniere,31,F,3,1:03:16,0:09:03,F3039,Lebanon,NH,58
+27,Ryan,Scelza,38,M,5,1:04:30,0:09:13,M3039,Quechee,VT,71
+28,Avery,Lovejoy,37,F,4,1:04:53,0:09:17,F3039,Hanover,NH,7
+29,Daniel,Lasko,31,M,6,1:05:12,0:09:19,M3039,New York,NY,2
+30,Sean,Wolfe,47,M,6,1:05:17,0:09:20,M4049,Lebanon,NH,82
+31,Kristen,Esty,33,F,5,1:05:24,0:09:21,F3039,Hartford,VT,49
+32,Darrel,Lasell,64,M,3,1:05:33,0:09:22,M6069,Williamstown,VT,22
+33,Steven,Read,57,M,7,1:05:39,0:09:23,M5059,Piermont,NH,41
+34,Katie,Barclay,31,F,6,1:06:19,0:09:29,F3039,Lebanon,NH,45
+35,Jonathan,Jolin,37,M,7,1:07:22,0:09:38,M3039,Lebanon,NH,1
+36,Wayne,Shadowens,53,M,8,1:08:15,0:09:45,M5059,Enfield,NH,42
+37,Maxwill,McDonald,12,M,2,1:08:15,0:09:45,M0119,Natick,MA,89
+38,Helene,Sisti,47,F,1,1:08:42,0:09:49,F4049,White River Jct,VT,72
+39,Andy,Kaestle,35,M,8,1:09:44,0:09:58,M3039,Hanover,NH,38
+40,T.J.,Czechowicz,34,M,9,1:09:45,0:09:58,M3039,Loudon,NH,19
+41,Melinda,Siranian,50,F,2,1:10:21,0:10:03,F5059,Wilmot,NH,25
+42,Darragh,Madden,45,F,2,1:10:43,0:10:07,F4049,Contoocook,NH,92
+43,Christine,Madden,46,F,3,1:10:43,0:10:07,F4049,Contoocook,NH,91
+44,Taylor,Turner,23,F,3,1:11:54,0:10:17,F2029,West Lebanon,NH,5
+45,Michaela,Bish,26,F,4,1:11:55,0:10:17,F2029,Lebanon,NH,16
+46,Dennis,Casey,64,M,4,1:12:17,0:10:20,M6069,Groton,VT,85
+47,Rocky,Baraagh,10,M,3,1:12:18,0:10:20,M0119,Mc Indoe Falls,VT,95
+48,Todd,MacKenzie,52,M,9,1:12:19,0:10:20,M5059,Norwich,VT,59
+49,Carrie,O'Connell,48,F,4,1:12:33,0:10:22,F4049,Phoenix,AZ,10
+50,Katie,Faris,48,F,5,1:13:06,0:10:27,F4049,Hanover,NH,50
+51,Jacqueleen,Albanese,37,F,7,1:13:52,0:10:34,F3039,White River Jct,VT,44
+52,Eric,Parker,66,M,5,1:13:55,0:10:34,M6069,Johnstown,NY,14
+53,Alexander,Drew,34,M,10,1:15:10,0:10:45,M3039,White River Jct,VT,9
+54,Alison,Grogan,39,F,8,1:16:02,0:10:52,F3039,Grantham,NH,53
+55,Megan,Maville,41,F,6,1:16:29,0:10:56,F4049,Enfield,NH,93
+56,Heather,Waters,59,F,3,1:16:43,0:10:58,F5059,Lebanon,NH,80
+57,Marie,Parizo,65,F,1,1:19:24,0:11:21,F6069,Quechee,VT,69
+58,Alicia,Zbehlik,58,F,4,1:21:19,0:11:37,F5059,Lebanon,NH,40
+59,Jessica,Vinal,34,F,9,1:25:18,0:12:12,F3039,Townsend,MA,3
+60,Elizabeth,Fowler,29,F,5,1:26:09,0:12:19,F2029,Enfield,NH,32
+61,William,Peters,59,M,10,1:27:07,0:12:27,M5059,Manchester,NH,18
+62,Kelly,Burton,45,F,7,1:27:18,0:12:29,F4049,Springfield,VT,13
+63,Jennifer,Snide,44,F,8,1:27:26,0:12:30,F4049,Claremont,NH,15
+64,Brittany,Newton,31,F,10,1:30:40,0:12:57,F3039,Enfield,NH,27
+65,James,Pitarys,34,M,11,1:30:40,0:12:58,M3039,Enfield,NH,28
+66,Lindsay,Smith,47,F,9,1:40:22,0:14:21,F4049,Enfield,NH,39
