@@ -7,6 +7,9 @@ in `csv` format resulting in the file located at
 input_data/race_data_raw/02_ShakerSeven_7m_20220626/7m_raw.csv
 ```
 
+### edits
+* replaced "Rob" with "Robert" in `7m_raw.csv` to match exactly with "Robert Daniels" in the UVRC roster.
+
 ## race_data_raw -> race_data
 
 Once you have `7m_raw.csv` in `input_data/race_data_raw/02_ShakerSeven_7m_20220626/` directory
