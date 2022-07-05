@@ -1,0 +1,148 @@
+Place,Bib,Name,First name,Last name,Distance,Category,Age,Gender,Time,Difference,% Back,% Winning,% Average,% Median,Pace (time / mile)
+1,71,Angus Hall,Angus,Hall,5k,15-19,17,Male,19:24.2,-,-,100%,40.86%,38.99%,6:15.5
+2,680,Benji Madory,,,5k,14 & Under,14,Male,20:47.4,+1:23.2,+7.15%,93.33%,36.63%,34.63%,6:42.4
+3,79,Nandeesh Jain,Nandeesh,Jain,5k,15-19,15,Male,21:29.9,+2:05.7,+10.80%,90.26%,34.48%,32.40%,6:56.1
+4,49,Dylan Faris,Dylan,Faris,5k,14 & Under,8,Male,21:36.1,+2:11.9,+11.33%,89.82%,34.16%,32.08%,6:58.1
+5,854,Erich Rentz,,,5k,30-39,34,Male,21:46.6,+2:22.4,+12.23%,89.10%,33.63%,31.53%,7:01.5
+6,180,Jacob St. Peter,Jacob,St. Peter,5k,14 & Under,11,Male,22:06.9,+2:42.7,+13.98%,87.74%,32.60%,30.46%,7:08.0
+7,12,Andrew Campbell,Andrew,Campbell,5k,14 & Under,12,Male,22:09.6,+2:45.4,+14.21%,87.56%,32.46%,30.32%,7:08.9
+8,1,Isaac Ager,Isaac,Ager,5k,15-19,16,Male,22:18.7,+2:54.5,+14.99%,86.96%,32.00%,29.84%,7:11.8
+9,675,Nathaniel Picconi-Eakin,,,5k,14 & Under,14,Male,22:34.6,+3:10.4,+16.35%,85.94%,31.19%,29.01%,7:17.0
+10,14,Jillian Campbell,Jillian,Campbell,5k,14 & Under,9,Female,22:37.1,+3:12.9,+16.57%,85.79%,31.06%,28.88%,7:17.8
+11,692,Carla Williams,,,5k,30-39,35,Female,22:56.5,+3:32.3,+18.24%,84.58%,30.08%,27.86%,7:24.0
+12,925,Jennifer Acevedo,,,5k,20-29,24,Female,23:02.7,+3:38.5,+18.77%,84.20%,29.76%,27.54%,7:26.0
+13,89,Joseph Lafountain,Joseph,LaFountain,5k,30-39,34,Male,24:29.5,+5:05.3,+26.22%,79.22%,25.35%,22.99%,7:54.0
+14,175,Alistair Smith,Alistair,Smith,5k,14 & Under,14,Male,24:31.2,+5:07.0,+26.37%,79.13%,25.27%,22.90%,7:54.6
+15,176,Colin Smith,Colin,Smith,5k,40-49,46,Male,24:33.2,+5:09.0,+26.54%,79.03%,25.16%,22.80%,7:55.2
+16,54,Mariana Farr,Mariana,Farr,5k,20-29,27,Female,24:36.8,+5:12.6,+26.85%,78.83%,24.98%,22.61%,7:56.4
+17,125,Robert Moore,Robert,Moore,5k,20-29,23,Male,24:39.5,+5:15.3,+27.08%,78.69%,24.84%,22.47%,7:57.3
+18,677,Gillian Sowden,,,5k,40-49,40,Female,24:42.2,+5:18.0,+27.31%,78.55%,24.71%,22.32%,7:58.1
+19,45,Axel Ericson,Axel,Ericson,5k,14 & Under,12,Male,25:04.8,+5:40.6,+29.26%,77.37%,23.56%,21.14%,8:05.4
+20,927,Kyle Morrell,,,5k,30-39,30,Male,25:09.8,+5:45.6,+29.69%,77.11%,23.30%,20.88%,8:07.0
+21,689,Philip Rentz,,,5k,60-69,62,Male,25:47.8,+6:23.6,+32.95%,75.22%,21.37%,18.89%,8:19.3
+22,130,Robyn Mosher,Robyn,Mosher,5k,60-69,60,Female,25:49.2,+6:25.0,+33.07%,75.15%,21.30%,18.81%,8:19.7
+23,46,Colleen Ericson,Colleen,Ericson,5k,50-59,53,Female,25:52.3,+6:28.1,+33.34%,75.00%,21.15%,18.65%,8:20.7
+24,686,Richard Hewston,,,5k,40-49,41,Male,26:33.8,+7:09.6,+36.90%,73.05%,19.04%,16.48%,8:34.1
+25,3,Shelby Andersen,Shelby,Andersen,5k,20-29,23,Female,26:41.0,+7:16.8,+37.52%,72.72%,18.67%,16.10%,8:36.5
+26,684,Rudi Bowen,,,5k,20-29,20,Male,26:49.5,+7:25.3,+38.25%,72.33%,18.24%,15.65%,8:39.2
+27,190,Nancy Szeliga,Nancy,Szeliga,5k,60-69,61,Female,26:59.2,+7:35.0,+39.08%,71.90%,17.75%,15.15%,8:42.3
+28,13,Carolyn Campbell,Carolyn,Campbell,5k,14 & Under,9,Female,27:11.6,+7:47.4,+40.15%,71.35%,17.12%,14.50%,8:46.3
+29,663,Karen Wright,Karen,Wright,5k,40-49,41,Female,27:21.9,+7:57.7,+41.03%,70.91%,16.59%,13.96%,8:49.6
+30,156,Coral Pope,Coral,Pope,5k,14 & Under,14,Female,27:30.2,+8:06.0,+41.75%,70.55%,16.17%,13.52%,8:52.3
+31,185,Annemarie Stout,Annemarie,Stout,5k,20-29,22,Female,27:38.8,+8:14.6,+42.48%,70.18%,15.74%,13.07%,8:55.1
+32,15,Stacy Campbell,Stacy,Campbell,5k,40-49,45,Female,27:41.3,+8:17.1,+42.70%,70.08%,15.61%,12.94%,8:55.9
+33,53,Isaac Farr,Isaac,Farr,5k,20-29,27,Male,27:43.0,+8:18.8,+42.84%,70.01%,15.52%,12.85%,8:56.5
+34,678,Ian Bick,,,5k,14 & Under,10,Male,27:56.6,+8:32.4,+44.01%,69.44%,14.83%,12.14%,9:00.8
+35,158,Ethan Pope,Ethan,Pope,5k,40-49,45,Male,28:04.1,+8:39.9,+44.66%,69.13%,14.45%,11.74%,9:03.3
+36,685,Amber Hewston,,,5k,30-39,38,Female,28:09.3,+8:45.1,+45.10%,68.92%,14.19%,11.47%,9:04.9
+37,182,Meagan Stabler,Meagan,Stabler,5k,30-39,33,Female,28:18.7,+8:54.5,+45.91%,68.53%,13.71%,10.98%,9:08.0
+38,143,Sherry Owens,Sherry,Owens,5k,30-39,34,Female,28:20.8,+8:56.6,+46.09%,68.45%,13.60%,10.87%,9:08.6
+39,188,Sarah Swanson,Sarah,Swanson,5k,30-39,38,Female,28:21.0,+8:56.8,+46.11%,68.44%,13.59%,10.86%,9:08.7
+40,657,Peter Wild,Peter,Wild,5k,60-69,60,Male,28:32.3,+9:08.1,+47.08%,67.99%,13.02%,10.27%,9:12.4
+41,95,Christopher Lee,Christopher,Lee,5k,20-29,20,Male,28:42.5,+9:18.3,+47.96%,67.59%,12.50%,9.73%,9:15.6
+42,668,Emma Dunbar,,,5k,15-19,18,Female,29:34.4,+10:10.2,+52.41%,65.61%,9.86%,7.01%,9:32.4
+43,56,Zachary Finston,Zachary,Finston,5k,14 & Under,8,Male,29:36.7,+10:12.5,+52.61%,65.53%,9.75%,6.89%,9:33.1
+44,77,Elisheva Hirshman Finston,Elisheva,Hirshman Finston,5k,40-49,40,Female,29:47.9,+10:23.7,+53.57%,65.12%,9.18%,6.30%,9:36.7
+45,94,Allyson Lee,Allyson,Lee,5k,15-19,15,Female,29:55.1,+10:30.9,+54.19%,64.85%,8.81%,5.93%,9:39.1
+46,861,James Scott King,,,5k,50-59,59,Male,30:03.8,+10:39.6,+54.94%,64.54%,8.37%,5.47%,9:41.9
+47,198,John Valentine,John,Valentine,5k,70+,72,Male,30:05.3,+10:41.1,+55.07%,64.49%,8.29%,5.39%,9:42.4
+48,55,Jesus Fernandez,Jesus,Fernandez,5k,70+,71,Male,30:11.8,+10:47.6,+55.63%,64.26%,7.96%,5.05%,9:44.5
+49,177,Michele Spotts,Michele,Spotts,5k,40-49,42,Female,30:23.9,+10:59.7,+56.67%,63.83%,7.35%,4.42%,9:48.4
+50,34,Jenna Dumayne,Jenna,Dumayne,5k,30-39,31,Female,30:26.0,+11:01.8,+56.85%,63.76%,7.24%,4.31%,9:49.0
+51,687,Bethany Siebert,,,5k,30-39,38,Female,30:27.1,+11:02.9,+56.94%,63.72%,7.19%,4.25%,9:49.4
+52,193,Karli Thornton,Karli,Thornton,5k,20-29,27,Female,30:27.3,+11:03.1,+56.96%,63.71%,7.18%,4.24%,9:49.5
+53,670,Betsy Gonnerman,,,5k,70+,77,Female,30:28.7,+11:04.5,+57.08%,63.66%,7.11%,4.17%,9:49.9
+54,4,Eric Avila,Eric,Avila,5k,30-39,34,Male,30:30.9,+11:06.7,+57.27%,63.59%,6.99%,4.05%,9:50.6
+55,690,Sarah Caron,,,5k,20-29,27,Female,30:33.0,+11:08.8,+57.45%,63.51%,6.89%,3.94%,9:51.3
+56,97,Alaina Legere,Alaina,Legere,5k,30-39,32,Female,30:35.8,+11:11.6,+57.69%,63.42%,6.74%,3.79%,9:52.2
+57,21,Nora Comeau,Nora,Comeau,5k,14 & Under,11,Female,31:48.2,+12:24.0,+63.91%,61.01%,3.07%,0.00%,10:15.5
+58,181,Ollie St. Peter,Ollie,St. Peter,5k,14 & Under,11,Male,31:51.0,+12:26.8,+64.15%,60.92%,2.92%,-0.15%,10:16.5
+59,679,Doug Madory,,,5k,40-49,45,Male,31:53.3,+12:29.1,+64.34%,60.85%,2.81%,-0.27%,10:17.2
+60,681,Jesse Madory,,,5k,14 & Under,11,Male,31:57.0,+12:32.8,+64.66%,60.73%,2.62%,-0.46%,10:18.4
+61,159,Mercy Pope,Mercy,Pope,5k,14 & Under,11,Female,32:03.3,+12:39.1,+65.20%,60.53%,2.30%,-0.79%,10:20.4
+62,112,Stephanie Mathew,Stephanie,Mathew,5k,40-49,41,Female,32:05.9,+12:41.7,+65.43%,60.45%,2.17%,-0.93%,10:21.3
+63,141,Jeffrey Neily,Jeffrey,Neily,5k,50-59,53,Male,32:29.6,+13:05.4,+67.46%,59.71%,0.96%,-2.17%,10:28.9
+64,164,Dana Read,Dana,Read,5k,40-49,47,Female,32:36.7,+13:12.5,+68.07%,59.50%,0.60%,-2.54%,10:31.2
+65,8,Ivy Belk,Ivy,Belk,5k,60-69,66,Female,32:50.5,+13:26.3,+69.26%,59.08%,-0.10%,-3.26%,10:35.6
+66,697,Avila Martin,,,5k,14 & Under,10,Female,32:57.8,+13:33.6,+69.88%,58.86%,-0.47%,-3.65%,10:38.0
+67,698,Melanie Martin,,,5k,14 & Under,9,Female,32:59.2,+13:35.0,+70.01%,58.82%,-0.54%,-3.72%,10:38.5
+68,664,Nancy Wright,Nancy,Wright,5k,60-69,64,Female,33:01.1,+13:36.9,+70.17%,58.77%,-0.64%,-3.82%,10:39.1
+69,699,Charmaine Martin,,,5k,40-49,48,Female,33:03.2,+13:39.0,+70.35%,58.70%,-0.74%,-3.93%,10:39.7
+70,666,Stephanie Yen,Stephanie,Yen,5k,50-59,56,Female,33:16.5,+13:52.3,+71.49%,58.31%,-1.42%,-4.63%,10:44.0
+71,27,Izzy Currier,Izzy,Currier,5k,14 & Under,12,Female,33:25.8,+14:01.6,+72.29%,58.04%,-1.89%,-5.11%,10:47.0
+72,179,Drew St. Peter,Drew,St. Peter,5k,50-59,50,Male,33:31.5,+14:07.3,+72.78%,57.88%,-2.18%,-5.41%,10:48.9
+73,140,Martha Neary,Martha,Neary,5k,50-59,59,Female,33:39.9,+14:15.7,+73.50%,57.64%,-2.61%,-5.85%,10:51.6
+74,121,Pauline Mochama,Pauline,Mochama,5k,30-39,33,Female,34:34.3,+15:10.1,+78.17%,56.12%,-5.37%,-8.70%,11:09.1
+75,103,Allison MacKenzie,Allison,MacKenzie,5k,14 & Under,13,Female,34:55.2,+15:31.0,+79.97%,55.57%,-6.43%,-9.80%,11:15.9
+76,104,Todd MacKenzie,Todd,MacKenzie,5k,50-59,52,Male,34:57.1,+15:32.9,+80.13%,55.51%,-6.53%,-9.90%,11:16.5
+77,67,Kari Grua,Kari,Grua,5k,30-39,33,Female,35:00.2,+15:36.0,+80.40%,55.43%,-6.69%,-10.06%,11:17.5
+78,88,Nicole Labrecque,Nicole,Labrecque,5k,30-39,35,Female,35:02.7,+15:38.5,+80.61%,55.37%,-6.81%,-10.19%,11:18.3
+79,134,Michael Musty,Michael,Musty,5k,30-39,36,Male,35:05.2,+15:41.0,+80.83%,55.30%,-6.94%,-10.32%,11:19.1
+80,655,Nicole Westervelt,Nicole,Westervelt,5k,30-39,33,Female,35:29.4,+16:05.2,+82.91%,54.67%,-8.17%,-11.59%,11:26.9
+81,662,Shelby Wood,Shelby,Wood,5k,30-39,34,Female,35:30.8,+16:06.6,+83.03%,54.64%,-8.24%,-11.67%,11:27.4
+82,154,Victoria Pomeroy,Victoria,Pomeroy,5k,14 & Under,10,Female,35:55.9,+16:31.7,+85.18%,54.00%,-9.52%,-12.98%,11:35.5
+83,136,Carter Nadeau,Carter,Nadeau,5k,14 & Under,14,Male,36:20.1,+16:55.9,+87.26%,53.40%,-10.75%,-14.25%,11:43.3
+84,74,Laurie Heels,Laurie,Heels,5k,50-59,57,Female,36:21.6,+16:57.4,+87.39%,53.36%,-10.82%,-14.33%,11:43.7
+85,178,Andrea St. Peter,Andrea,St. Peter,5k,40-49,46,Female,36:25.2,+17:01.0,+87.70%,53.28%,-11.00%,-14.52%,11:44.9
+86,183,Carey Stillman,Carey,Stillman,5k,50-59,57,Female,36:27.4,+17:03.2,+87.89%,53.22%,-11.12%,-14.63%,11:45.6
+87,683,Christine Smith,,,5k,40-49,44,Female,36:38.1,+17:13.9,+88.81%,52.96%,-11.66%,-15.19%,11:49.1
+88,22,Sharon Comeau,Sharon,Comeau,5k,50-59,51,Female,36:41.8,+17:17.6,+89.13%,52.87%,-11.85%,-15.39%,11:50.3
+89,184,Patricia Stone,Patricia,Stone,5k,50-59,58,Female,36:43.6,+17:19.4,+89.28%,52.83%,-11.94%,-15.48%,11:50.8
+90,9,Caitlin Birch,Caitlin,Birch,5k,30-39,35,Female,36:47.9,+17:23.7,+89.65%,52.73%,-12.16%,-15.71%,11:52.2
+91,131,Bob Murphy,Bob,Murphy,5k,70+,82,Male,36:48.0,+17:23.8,+89.66%,52.73%,-12.16%,-15.71%,11:52.3
+92,102,Brittany Lyon,Brittany,Lyon,5k,20-29,27,Female,37:04.9,+17:40.7,+91.11%,52.33%,-13.02%,-16.60%,11:57.7
+93,82,Deepak Karanwal,Deepak,Karanwal,5k,40-49,47,Male,37:31.6,+18:07.4,+93.40%,51.71%,-14.38%,-18.00%,12:06.3
+94,25,Megan Cross,Megan,Cross,5k,30-39,37,Female,38:12.0,+18:47.8,+96.87%,50.79%,-16.43%,-20.11%,12:19.4
+95,192,Lauren Thompson White,Lauren,Thompson White,5k,30-39,32,Female,39:19.2,+19:55.0,+102.65%,49.35%,-19.84%,-23.63%,12:41.0
+96,924,Evin Howard,,,5k,30-39,38,Male,39:26.0,+20:01.8,+103.23%,49.21%,-20.19%,-23.99%,12:43.2
+97,923,Nihi Enye,,,5k,30-39,37,Female,39:28.9,+20:04.7,+103.48%,49.15%,-20.34%,-24.14%,12:44.2
+98,669,Michael Gonnerman,,,5k,70+,79,Male,39:35.6,+20:11.4,+104.05%,49.01%,-20.68%,-24.49%,12:46.3
+99,42,Kate Enneper,Kate,Enneper,5k,20-29,25,Female,39:49.0,+20:24.8,+105.21%,48.73%,-21.36%,-25.20%,12:50.6
+100,44,Roy Enneper,Roy,Enneper,5k,60-69,60,Male,39:50.2,+20:26.0,+105.31%,48.71%,-21.42%,-25.26%,12:51.0
+101,83,Tina Kebalka,Tina,Kebalka,5k,50-59,53,Female,40:59.0,+21:34.8,+111.22%,47.34%,-24.91%,-28.86%,13:13.2
+102,658,John Wilson,John,Wilson,5k,50-59,55,Male,41:34.5,+22:10.3,+114.27%,46.67%,-26.72%,-30.73%,13:24.7
+103,152,Desislava Pomeroy,Desislava,Pomeroy,5k,30-39,36,Female,45:29.6,+26:05.4,+134.46%,42.65%,-38.66%,-43.05%,14:40.5
+104,186,Benjamin Swanson,Benjamin,Swanson,5k,30-39,39,Male,45:31.9,+26:07.7,+134.66%,42.62%,-38.78%,-43.17%,14:41.3
+105,187,Molly Swanson,Molly,Swanson,5k,14 & Under,7,Female,45:33.6,+26:09.4,+134.81%,42.59%,-38.86%,-43.26%,14:41.8
+106,135,Seetha Lakshmi N Subramanian,Seetha Lakshmi,N Subramanian,5k,30-39,34,Female,47:07.4,+27:43.2,+142.86%,41.18%,-43.63%,-48.17%,15:12.1
+107,138,Palaniappan Nagappan,palaniappan,nagappan,5k,30-39,37,Male,47:09.2,+27:45.0,+143.02%,41.15%,-43.72%,-48.27%,15:12.6
+108,659,Kimberly Wilson,Kimberly,Wilson,5k,50-59,53,Female,47:14.6,+27:50.4,+143.48%,41.07%,-43.99%,-48.55%,15:14.4
+109,862,Robert More,,,5k,40-49,44,Male,47:20.2,+27:56.0,+143.96%,40.99%,-44.28%,-48.84%,15:16.2
+110,10,Denise Bloom,Denise,Bloom,5k,50-59,54,Female,59:49.2,+40:25.0,+208.30%,32.44%,-82.33%,-88.09%,19:17.8
+111,7,Christy Barton,Christy,Barton,5k,40-49,42,Female,59:50.2,+40:26.0,+208.38%,32.43%,-82.38%,-88.15%,19:18.1
+112,151,Dana Pilchik,Dana,Pilchik,5k,50-59,51,Female,1:09:12.8,+49:48.6,+256.71%,28.03%,-110.95%,-117.63%,22:19.6
+113,75,Michael Herron,Michael,Herron,5k,70+,55,Male,1:09:14.1,+49:49.9,+256.82%,28.03%,-111.02%,-117.70%,22:20.0
+-,20,Saryn Cole,Saryn,Cole,5k,30-39,31,Female,DNF,-,-,-,-,-,-
+-,24,Rita Coppola,Rita,Coppola,5k,60-69,66,Female,DNF,-,-,-,-,-,-
+-,52,Ryan Faris,Ryan,Faris,5k,15-19,15,Male,DNF,-,-,-,-,-,-
+-,68,Kate Guarino,Kate,Guarino,5k,30-39,33,Female,DNF,-,-,-,-,-,-
+-,98,Alexandra Lenzen,Alexandra,Lenzen,5k,30-39,32,Female,DNF,-,-,-,-,-,-
+-,157,Estelle Pope,Estelle,Pope,5k,40-49,44,Female,DNF,-,-,-,-,-,-
+-,166,Declan Read-Murrell,Declan,Read-Murrell,5k,14 & Under,13,Male,DNF,-,-,-,-,-,-
+-,656,Charlotte Wheeler,Charlotte,Wheeler,5k,14 & Under,2,Female,DNF,-,-,-,-,-,-
+-,691,Daphne Moritz,,,5k,50-59,57,Female,DNF,-,-,-,-,-,-
+-,696,Caleb Martin,,,5k,15-19,16,Male,DNF,-,-,-,-,-,-
+-,11,Abby Campbell,Abby,Campbell,5k,20-29,25,Female,DNS,-,-,-,-,-,-
+-,17,Joseph Cheevers,Joseph,Cheevers,5k,50-59,55,Male,DNS,-,-,-,-,-,-
+-,23,Kim Cooper,Kim,Cooper,5k,50-59,53,Female,DNS,-,-,-,-,-,-
+-,30,Jackson Desrosiers,Jackson,Desrosiers,5k,14 & Under,8,Male,DNS,-,-,-,-,-,-
+-,31,Rebecca Desrosiers,Rebecca,Desrosiers,5k,30-39,38,Female,DNS,-,-,-,-,-,-
+-,32,Lauren Dorsey,Lauren,Dorsey,5k,20-29,22,Female,DNS,-,-,-,-,-,-
+-,37,Katie Edwards,Katie,Edwards,5k,30-39,33,Female,DNS,-,-,-,-,-,-
+-,43,Patricia Enneper,Patricia,Enneper,5k,50-59,58,Female,DNS,-,-,-,-,-,-
+-,48,Paul Etkind,Paul,Etkind,5k,60-69,69,Male,DNS,-,-,-,-,-,-
+-,51,Megan Faris,Megan,Faris,5k,14 & Under,13,Female,DNS,-,-,-,-,-,-
+-,70,Dylan Haigh,Dylan,Haigh,5k,30-39,39,Male,DNS,-,-,-,-,-,-
+-,76,Claire Hinrichs,Claire,Hinrichs,5k,20-29,24,Female,DNS,-,-,-,-,-,-
+-,85,Christin Kennedy,Christin,Kennedy,5k,50-59,52,Female,DNS,-,-,-,-,-,-
+-,91,Nancy Lapoint,Nancy,LaPoint,5k,50-59,53,Female,DNS,-,-,-,-,-,-
+-,111,April Mason,April,Mason,5k,40-49,42,Female,DNS,-,-,-,-,-,-
+-,118,Shirley Mills,Shirley,Mills,5k,40-49,42,Female,DNS,-,-,-,-,-,-
+-,129,Janet Morgan,Janet,Morgan,5k,50-59,52,Female,DNS,-,-,-,-,-,-
+-,137,Kate Nadler,Kate,Nadler,5k,30-39,32,Female,DNS,-,-,-,-,-,-
+-,147,Devin Parker,Devin,Parker,5k,30-39,35,Female,DNS,-,-,-,-,-,-
+-,155,Alden Pope,Alden,Pope,5k,15-19,15,Male,DNS,-,-,-,-,-,-
+-,160,Denise Potter,Denise,Potter,5k,50-59,55,Female,DNS,-,-,-,-,-,-
+-,163,Kavita Rawat,KAVITA,RAWAT,5k,30-39,32,Female,DNS,-,-,-,-,-,-
+-,170,Corina Ryan,corina,ryan,5k,30-39,32,Female,DNS,-,-,-,-,-,-
+-,191,Amy Thacker,Amy,Thacker,5k,50-59,52,Female,DNS,-,-,-,-,-,-
