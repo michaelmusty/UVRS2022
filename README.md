@@ -58,6 +58,8 @@ The steps are detailed in the references.
 * `Race`: a UVRS race
 * `Racer`: a racer in a UVRS race
 * `Participant`: a person that has been matched to at least one racer
+### misc
+`diff_rosters.py` is a script to analyze differences between rosters (WIP)
 
 ## data
 
