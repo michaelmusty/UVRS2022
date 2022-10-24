@@ -57,10 +57,14 @@ def _process_path(path: str, which_race: str):
                 logger.warning(
                     f"name: {name} consists of more than 2 words, might be worth investigating"
                 )
-            first = s[0]
-            last = " ".join(
-                [s[i] for i in range(1, len(s))]
-            )  # join multiple if len(s) > 2
+            # first = s[0]
+            first = " ".join(
+                [s[i] for i in range(len(s) - 1)]
+            )  # join multiple in first name
+            # last = " ".join(
+            #     [s[i] for i in range(1, len(s))]
+            # )  # join multiple if len(s) > 2
+            last = s[-1]
             logger.info(f"parsed first/last as {first} {last}")
 
             # TIME

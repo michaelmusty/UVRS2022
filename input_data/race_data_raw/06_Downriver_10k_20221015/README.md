@@ -5,8 +5,9 @@ Copy text from [http://pinnacletiming.us/index.php?n=downriver_rail_run_10k_over
 to obtain `10k_raw.txt`.
 
 ### edits: notes on any manual edits made
-Note some multiple-cursor editing is required to get the text in this form.
-Also note we replace "Amy Mitchell Gomo" with "Amy Mitchell" to match the UVRS roster.
+* Note some multiple-cursor editing is required to get the text in this form.
+* Replace "Amy Mitchell Gomo" with "Amy Mitchell" to match the UVRS roster.
+* Replace "Lori Hill" with "Lori Bliss Hill" to match the UVRS roster.
 
 ## race_data_raw -> race_data: to produce `10k.csv`
 From the repository directory run:
