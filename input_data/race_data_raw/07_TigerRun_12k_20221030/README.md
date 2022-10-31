@@ -11,6 +11,9 @@ Just rename the files:
 cp input_data/race_data_raw/07_TigerRun_12k_20221030/Tiger_Run_5k_and_12k_5K.csv input_data/race_data_raw/07_TigerRun_12k_20221030/5k_raw.csv
 cp input_data/race_data_raw/07_TigerRun_12k_20221030/Tiger_Run_5k_and_12k_12K.csv input_data/race_data_raw/07_TigerRun_12k_20221030/12k_raw.csv
 ```
+and adjust names:
+* Lori -> Lori Bliss
+* Elizabeth -> Betsy
 
 ## race_data_raw -> race_data: to produce `5k.csv` and `12k.csv`
 From the repository directory run:
