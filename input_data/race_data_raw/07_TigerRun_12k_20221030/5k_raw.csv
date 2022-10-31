@@ -1,0 +1,65 @@
+Place,First Name,Last Name,Age,Sex,Div/Tot,Guntime,Pace,Div,No.,City,St
+1,Gunner,Currier,15,M,1,0:19:46,0:06:22,MOPEN,1,Enfield,NH
+2,Trevor,Maheu,15,M,2,0:19:50,0:06:23,MOPEN,11,Enfield,NH
+3,Erich,Rentz,34,M,1,0:20:02,0:06:27,M3039,69,Norwich,VT
+4,Stephen,Defelice,15,M,1,0:20:35,0:06:38,M1315,16,Canaan,NH
+5,Reece,Woodward,14,M,2,0:22:24,0:07:13,M1315,65,Enfield,NH
+6,Dominic,Defelice,13,M,3,0:23:22,0:07:32,M1315,18,Canaan,NH
+7,Victoria,Petty,12,F,1,0:23:27,0:07:33,FOPEN,9,Canaan,NH
+8,Kristen,Coats,51,F,2,0:23:41,0:07:38,FOPEN,8,Lebanon,NH
+9,Keri,Niles,32,F,1,0:24:00,0:07:44,F3039,3,Woodstock,VT
+10,Robyn,Mosher,61,F,1,0:24:13,0:07:48,F60+,78,Windsor,VT
+11,Colin,Smith,46,M,1,0:24:18,0:07:50,M4049,5,Lebanon,NH
+12,Alistair,Smith,14,M,4,0:24:20,0:07:50,M1315,4,Lebanon,NH
+13,Samuel,Calfy,31,M,2,0:26:18,0:08:28,M3039,72,Hanover,NH
+14,Annemarie,Stout,57,F,1,0:27:12,0:08:45,F5059,64,Plainfield,NH
+15,Kristen,Esty,33,F,2,0:27:27,0:08:50,F3039,84,Hartford,VT
+16,Samuel,Lensgraf,29,M,1,0:27:36,0:08:53,M2029,56,Lebanon,NH
+17,Tracy,Hazen,47,F,1,0:27:43,0:08:56,F4049,35,Lebanon,NH
+18,Sefa,Petrini,13,M,5,0:27:58,0:09:00,M1315,81,Canaan,NH
+19,Meagen,Stabler,33,F,3,0:28:14,0:09:05,F3039,49,Lebanon,NH
+20,Ian,Massecar,11,M,1,0:28:19,0:09:07,M0112,12,Enfield,NH
+21,Izzy,Currier,13,F,1,0:28:22,0:09:08,F1315,7,Enfield,NH
+22,Madeline,Song,10,F,1,0:28:24,0:09:09,F0112,15,Canaan,NH
+23,Jacqueleen,Albanese,37,F,4,0:28:33,0:09:12,F3039,2,White River Jct,VT
+24,Hana,Massecar,43,F,2,0:28:35,0:09:12,F4049,13,Enfield,NH
+25,Erik,Russell,45,M,2,0:28:36,0:09:13,M4049,14,Enfield,NH
+26,Rebecca,McKinnon,50,F,2,0:28:42,0:09:15,F5059,33,Lebanon,NH
+27,Matthew,Tourville,13,M,6,0:28:56,0:09:19,M1315,19,Canaan,NH
+28,Sherry,Owens,34,F,5,0:28:58,0:09:20,F3039,46,Hartford,VT
+29,Zachary,Petrini,11,M,2,0:29:33,0:09:31,M0112,83,Canaan,NH
+30,Mana,Petrini,13,M,7,0:29:36,0:09:32,M1315,82,Canaan,NH
+31,Sarah,Swanson,39,F,6,0:29:53,0:09:38,F3039,61,Lebanon,NH
+32,Alaina,Legere,32,F,7,0:30:15,0:09:45,F3039,40,Etna,NH
+33,Palaniappan,Nagappan,37,M,3,0:30:18,0:09:46,M3039,27,Lebanon,NH
+34,Daniel,Owens,35,M,4,0:30:41,0:09:53,M3039,79,Hartford,VT
+35,Layla,Hatch,12,F,2,0:31:32,0:10:09,F0112,66,Grafton,NH
+36,Heather,Waters,60,F,2,0:31:49,0:10:15,F60+,68,Lebanon,NH
+37,Alyssa,Pearl,48,F,3,0:31:52,0:10:16,F4049,57,Hanover,NH
+38,Rita,Coppola,66,F,3,0:32:28,0:10:27,F60+,54,Bradford,NH
+39,Katie,Edwards,33,F,8,0:32:43,0:10:32,F3039,55,Enfield,NH
+40,Ben,McKenna,39,M,5,0:32:43,0:10:32,M3039,77,Enfield,NH
+41,Grace,King,10,F,3,0:32:51,0:10:35,F0112,71,Enfield,NH
+42,Laura,Defelice,8,F,4,0:32:59,0:10:37,F0112,17,Canaan,NH
+43,Taeko,Perez Debrand,36,F,9,0:33:24,0:10:45,F3039,23,Lebanon,NH
+44,Nobelee,Cappetta,10,F,5,0:33:30,0:10:47,F0112,24,Canaan,NH
+45,Megan,Cross,37,F,10,0:33:37,0:10:50,F3039,25,Lebanon,NH
+46,Nicole,Labrecque,36,F,11,0:33:41,0:10:51,F3039,38,Piermont,NH
+47,Laura,Denman,33,F,12,0:33:55,0:10:55,F3039,74,Enfield,NH
+48,Christine,White,44,F,4,0:34:19,0:11:03,F4049,63,Orford,NH
+49,Scott,King,59,M,1,0:35:06,0:11:18,M5059,85,Lebanon,NH
+50,Jessica,Pecora,33,F,13,0:35:22,0:11:23,F3039,58,White River Jct,NH
+51,Jennifer,Fullerton,34,F,14,0:35:36,0:11:28,F3039,26,West Lebanon,NH
+52,Desislava,Pomeroy,36,F,15,0:35:51,0:11:33,F3039,59,Lebanon,NH
+53,Michael,Gonnerman,80,M,1,0:36:50,0:11:52,M60+,80,Hanover,NH
+54,Ke,Wu,34,F,16,0:37:46,0:12:10,F3039,76,Lyme,NH
+55,Laurie,Heels,58,F,3,0:37:52,0:12:12,F5059,36,West Lebanon,NH
+56,John,Wilson,55,M,2,0:41:58,0:13:31,M5059,50,Lebanon,NH
+57,Sally,Scanlon,77,F,4,0:42:26,0:13:40,F60+,60,West Lebanon,NH
+58,Alex,Boulton,13,M,8,0:46:31,0:14:59,M1315,70,Enfield,NH
+59,Andrew,MacKenzie,11,M,3,0:53:11,0:17:07,M0112,75,Norwich,VT
+60,Todd,MacKenzie,53,M,3,0:53:11,0:17:07,M5059,32,Norwich,VT
+61,Isabelle,Reney,7,F,6,0:54:10,0:17:26,F0112,73,Grantham,NH
+62,Rebecca,Brooks,52,F,4,0:54:12,0:17:27,F5059,87,Andover,NH
+63,Russ,Jewell,59,M,4,0:55:04,0:17:44,M5059,86,Wilmot,NH
+64,Allison,MacKenzie,13,F,2,0:55:33,0:17:53,F1315,31,Norwich,VT
