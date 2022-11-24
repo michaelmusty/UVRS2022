@@ -8,6 +8,10 @@
 * ok that didn't go great, better off just copy/paste text and modify to obtain `5k_raw.txt` and `10k_raw.txt`
 
 ### edits: notes on any manual edits made
+* Colin Smith: added empty results to 5k
+* palaniappan nagappan: last n was omitted from 5k results
+* Robert Daniels: changed Rob to Robert
+* Lori Bliss Hill: no change
 
 ## race_data_raw -> race_data: to produce `5k.csv` and `10k.csv`
 From the repository directory run:
